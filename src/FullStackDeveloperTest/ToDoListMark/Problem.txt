@@ -1,0 +1,8 @@
+Books on personal productivity emphasize the importance of using a To-Do-List. This list helps you organize your daily tasks and monitor your performance over time. Your task is to make it available online.
+
+You are provided with some code stubs which implement a limited functionality for this app.
+Modify the code to enable the following operation:
+
+- Mark an item as complete
+
+You can store the data in Javascript objects or in local storage.

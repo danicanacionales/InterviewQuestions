@@ -1,0 +1,6 @@
+Create a flexible 4x4 grid. The border of the grid should be 1px black. On resizing the window, the grid size should change so that each cell has same width.
+
+Given: 
+- CSS file 
+- JavaScript (Node.js)
+- HTML

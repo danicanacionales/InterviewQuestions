@@ -1,0 +1,37 @@
+A company stores employee and department information in two data tables: Employee and Department. Write a query to print the respective department name and number of employees in each department for all departments in the Department table (even ones with no current employees). Sort the results by descending order of the number of employees; if two or more departments have the same number of employees, then sort those departments alphabetically by department name.
+
+Each row of the resulting output must contain the following respective attributes for a department.
+1. The name of the department
+2. The number of employees in the department
+DEPARTMENT.NAME COUNT_OF_EMPLOYEES_IN_THE_DEPARTMENT
+
+Schema
+EMPLOYEE
+Name - Type - Description
+1. ID - Integer - A number which uniquely identifies the employee. This is a primary key.
+2. NAME - String - The name of the employee.
+3. SALARY - Integer - The salary of the employee.
+4. DEPT_ID - Integer - The department identification of the respective employee. This is a foreign key to DEPARTMENT ID.
+
+DEPARTMENT
+Name - Type - Description
+1. ID - Integer - The department's unique identification number. This is a primary key.
+2. NAME - String - The name of the department.
+3. LOCATION - String - The place where the department is located.
+
+Sample Data Tables
+EMPLOYEE
+ID     NAME     SALARY     DEPT_ID
+1      Candice  4685       1
+2      Julia    2559       2
+3      Bob      4405       4
+4      Scarlet  2350       1
+5      Ileana   1151       4
+
+DEPARTMENT
+ID     NAME         LOCATION
+1      Executive    Sydney
+2      Production   Sydney
+3      Resources    Cape Town
+4      Technical    Texas
+5      Management   Paris
